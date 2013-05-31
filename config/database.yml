@@ -1,0 +1,13 @@
+development:
+  pool: 8
+  adapter: postgresql
+  encoding: utf8
+  password:
+  database: my_app_development
+
+production:
+  pool: 8
+  adapter: postgresql
+  encoding: utf8
+  password:
+  database: my_app_production
